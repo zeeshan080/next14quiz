@@ -1,0 +1,73 @@
+{
+  "id": "cf81f354-1681-4d37-8795-e9354294a628",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "5",
+  "dialect": "pg",
+  "tables": {
+    "questions": {
+      "name": "questions",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "options1": {
+          "name": "options1",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "options2": {
+          "name": "options2",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "options3": {
+          "name": "options3",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "options4": {
+          "name": "options4",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "isCorrect": {
+          "name": "isCorrect",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "catagoryName": {
+          "name": "catagoryName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
